@@ -1,0 +1,12 @@
+.grad {
+  background: linear-gradient(90deg, #f39349, #d73784);
+  border: transparent;
+  padding: 5px 50px;
+  border-radius: 30px;
+  font-size: 18px;
+  box-shadow: 0 0 10px #d73784;
+}
+
+.arrow-img {
+  width: 60px;
+}
