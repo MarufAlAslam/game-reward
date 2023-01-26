@@ -26,9 +26,9 @@ const Reward = () => {
     <div className="lg:p-10 p-4 lg:w-5/6 mx-auto w-full">
       <h1 className="title text-4xl font-bold">Game reward</h1>
 
-      <div className="text-right my-3">
+      <div className="lg:text-right my-3">
         <p className="text-2xl inline-block text-center">
-          Punti TOTALI <br /> 132
+          Punti TOTALI <br className="lg:block hidden" /> 132
         </p>
       </div>
 

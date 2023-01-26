@@ -48,15 +48,15 @@ const Dashboard = () => {
     <div className="lg:p-10 p-4 lg:w-5/6 mx-auto w-full">
       <h1 className="title text-4xl font-bold">DASHBOARD</h1>
 
-      <div className="lg:overflow-x-hidden overflow-x-auto">
-        <div className="custom-table mt-10 w-full">
+      <div className="">
+        <div className="custom-table mt-10 w-full lg:overflow-x-hidden overflow-x-auto">
           {tableData.map((data, index) => {
             return (
               <div key={index} className="flex justify-between items-center">
                 <div className="data-item p-1 w1">
                   <p>{index + 1}</p>
                 </div>
-                <div className="data-item p-1 w-full w2">
+                <div className="data-item p-1 lg:w-full w2">
                   <p>{data.key}</p>
                 </div>
                 <div className="data-item p-1 text-right w3">
