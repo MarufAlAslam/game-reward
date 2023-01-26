@@ -1,0 +1,24 @@
+.custom-table {
+  background-image: linear-gradient(90deg, #f39349, #d73784);
+  background-origin: border-box; /* set background to start from border-box */
+  border-spacing: 5px; /* space between each cell */
+  border: 2px solid transparent;
+}
+
+.data-item p {
+  background-color: white;
+  padding: 10px 20px !important;
+}
+
+.p-1 {
+  padding: 1px !important;
+}
+
+.w1 {
+  width: 100px;
+  text-align: center;
+}
+.w3 {
+  width: 150px;
+  text-align: center;
+}
